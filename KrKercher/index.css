@@ -1,20 +1,47 @@
+.container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#title {
+  font: 45px times;
+  align: center;
+  top: -20px;
+}
+
+#story-title {
+  font: italic 30px monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+#list {
+  bottom: 20px;
+  right: 20px;
+}
+
 p {
   background-color: white;
   color: #333;
-  height: 300px;
-  overflow: auto;
   text-indent: 30px;
   border: 0.5px solid black;
   padding-top: 12px;
   padding-left: 8px;
   padding-right: 8px;
+  padding-bottom: 8px;
   text-align: left;  
   font-family: Helvetica, arial, sans-serif;
   font-size: 14px;
 }
 
 .pic {
-  width: 160px;
+  height: 150px;
   margin-top: 6px;
   margin-right: 10px;
   margin-left: 6px;
@@ -26,40 +53,12 @@ p {
   font-weight: bold;
 }
 
-#title {
-  text-align: center;
-  font-size: 30px;
-}
-
 #story {
-  width: 75%;
   float: left;
   margin: auto;
-  border: 2.5px solid black;
   padding: 10px;
   background-color: white;         
   font-family: Helvetica, arial, sans-serif;
   line-height: 1.6em;
   font-size: 14px;
 }
-
-#list {
-  font: italic 13px monospace;
-  line-height: 1.6em;
-  text-align: left;
-  width: 20%;
-  float: right;
-  border: 2.5px solid black;
-  padding: 10px;
-  font-family: Helvetica, arial, sans-serif;
-  font-size: 14px;
-  position: fixed;
-  right: 5px;
-}
-
-#story-title {
-  font: italic 30px monospace;
-  font-weight: bold;
-  text-align: center;
-}
-
