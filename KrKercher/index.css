@@ -54,7 +54,7 @@ p {
 }
 
 #story {
-  float: left;
+  width: 70%;
   margin: auto;
   padding: 10px;
   background-color: white;         
