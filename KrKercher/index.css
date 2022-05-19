@@ -40,10 +40,7 @@ body {
 }
 
 p {
-  text-indent: 30px;
-  padding-top: 12px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-top: 8px;
   padding-bottom: 8px;
   font-family: Helvetica, arial, sans-serif;
   font-size: 14px;
