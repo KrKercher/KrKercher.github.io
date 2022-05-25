@@ -1,8 +1,8 @@
 body {
-  background-image: url(https://www.w3schools.com/howto/img_nature_wide.jpg);
+  background-image: url(https://i.kym-cdn.com/entries/icons/mobile/000/036/061/cover2.jpg);
   background-position: right bottom, left top;
   background-repeat: repeat;
-  
+  background-attachment: fixed;
 }
 
 .container {
@@ -17,24 +17,21 @@ body {
 }
 
 .right-side { 
-  width: 28%;  
+  width: 30%;  
   float: right; 
-  position: relative; 
+  position: fixed; 
   right: 0px; 
-  padding-left: 18px;
   
 }
 
 #title {
   font: 45px times;
-  align: center;
   top: -20px;
 }
 
 #story-title {
   font: italic 30px monospace;
   font-weight: bold;
-  
 }
 
 #list {
@@ -43,10 +40,9 @@ body {
 }
 
 p {
-  padding-top: 8px;
-  padding-bottom: 8px;
   font-family: Helvetica, arial, sans-serif;
   font-size: 14px;
+
 }
 
 .pic {
@@ -62,10 +58,26 @@ p {
 }
 
 #story {
-  width: 70%;
-  padding: 10px;
-  background-color: white;         
+  width: 70%;        
   font-family: Helvetica, arial, sans-serif;
   line-height: 1.6em;
   font-size: 14px;
+  color: white;
+  background-color: black;
+  padding-top: 10px;
+  border-radius: 20px;
 }
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
